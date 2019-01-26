@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Written by Dr.n0psl3d - v1.0 - @20190126
+# Thanks to Mohawkguy
 # Get vpnclient interfaces
 VPNCLIENTS=`ifconfig | grep 'ovpnc' | grep -v 'inet' | cut -f1 -d ':'`
 
